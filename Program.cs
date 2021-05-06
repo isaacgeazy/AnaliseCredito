@@ -17,7 +17,7 @@ namespace AnaliseCredito
             Console.Write("Renda Mensal: ");
             rendamen = decimal.Parse(Console.ReadLine());
 
-            calcparc = parc / emprest;
+            calcparc = emprest / parc;
             calcporc = (30 * rendamen) / 100;
 
 
